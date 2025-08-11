@@ -32,7 +32,7 @@ exports.getAllWorkoutPlans = async (req, res) => {
   const userId = req.user._id;
 
   try {
-    const workoutPlans = await WorkoutPlan.find({ userId });
+    const workoutPlans = await WorkoutPlan.find({ userId }).sort({ scheduledAt: -1 });
     res.status(200).json(workoutPlans);
   } catch (error) {
     res
