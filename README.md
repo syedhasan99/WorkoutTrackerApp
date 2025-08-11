@@ -98,20 +98,20 @@ WorkoutPlan
 ```
 ## 🔑 API Endpoints
 ### Auth
-| Method	| Endpoint	| Description	| Auth | Required |
-|---|:---:|:---:|:---:|:---:|
+| Method	| Endpoint	| Description	| Auth Required |
+|---|:---:|:---:|:---:|
 | POST | /api/auth/register	| Register a new user	| No |
 | POST	| /api/auth/login	| Log in a user	| No |
 | POST	| /api/auth/logout	| Log out user	| Yes |
 
 ### Exercises
-| Method	| Endpoint | Description	| Auth | Required |
-|---|:---:|:---:|:---:|:---:|
+| Method	| Endpoint | Description	| Auth Required |
+|---|:---:|:---:|:---:|
 | GET	| /api/exercises	| List all exercises	| Yes |
 
 ### Workout Plans
-| Method	| Endpoint	| Description	| Auth | Required |
-|---|:---:|:---:|:---:|:---:|
+| Method	| Endpoint	| Description	| Auth Required |
+|---|:---:|:---:|:---:|
 | POST	| /api/workouts	| Create a workout plan	| Yes |
 | GET	| /api/workouts	| Get all workout plans	| Yes |
 | GET	| /api/workouts/:id	| Get a workout plan by ID	| Yes |
