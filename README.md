@@ -2,6 +2,8 @@
 A backend REST API for a workout tracker application where users can sign up, log in, create workout plans, schedule them, and track their progress.  
 The system uses **JWT authentication**, **MongoDB**, and includes a seeder to populate the database with predefined exercises.
 
+**📌 Project URL:** [https://roadmap.sh/projects/fitness-workout-tracker](https://roadmap.sh/projects/fitness-workout-tracker)
+
 ---
 
 ## 📋 Features
